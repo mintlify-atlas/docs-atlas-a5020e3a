@@ -1,0 +1,58 @@
+{
+  "projectType": "saas",
+  "projectName": "Stranger Things Intro Creator",
+  "projectDescription": "A web application that creates custom Stranger Things intro videos with personalized text and delivers them via email.",
+  "theme": "almond",
+  "primaryColor": "#D32F2F",
+  "lightColor": "#FF6659",
+  "darkColor": "#8B0000",
+  "navigation": {
+    "groups": [
+      {
+        "group": "Get Started",
+        "pages": [
+          "introduction",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Features",
+        "pages": [
+          "features/customization",
+          "features/resolution-options",
+          "features/video-delivery"
+        ]
+      },
+      {
+        "group": "Guides",
+        "pages": [
+          "guides/creating-your-intro",
+          "guides/tips-and-tricks",
+          "guides/troubleshooting"
+        ]
+      },
+      {
+        "group": "Resources",
+        "pages": [
+          "faq",
+          "examples"
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Custom text entry for title sequences",
+    "Multiple resolution options (SD, HD, 4K)",
+    "Email delivery of generated videos",
+    "Authentic Stranger Things intro recreation",
+    "Simple web-based interface"
+  ],
+  "publicApiSurface": [
+    "Web form with Start Text input",
+    "Web form with Title Row 1 input",
+    "Web form with Title Row 2 input",
+    "Web form with End Text input",
+    "Email address field for delivery",
+    "Resolution selector (SD/HD/4K)"
+  ]
+}
